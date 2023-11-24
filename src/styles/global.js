@@ -8,6 +8,19 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: ${({ theme}) => theme.COLORS.BACKGROUND_800};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  buttton, a {
+    cursor: pointer;
+    transition: filter 0.2s;
+  }
+  buttton:hover, a:hover {
+    filter: brightness (0.9);
   }
 `;
