@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.header `
   grid-area: header;
 
-  height: 105px;
-  width: 100%;
+  width: 105px;
+  height: 100vh;
   
   border-bottom-width: 1px;
   border-bottom-style: solid;
