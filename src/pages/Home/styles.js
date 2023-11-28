@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
   
   display: grid;
-  grid-template-rows: 250px auto;
+  grid-template-columns: 250px auto;
   grid-template-rows: 105px 128px auto 64px;
   grid-template-areas: 
   "brand header"
@@ -58,4 +58,15 @@ export const Content = styled.div`
 `;
 export const NewNote = styled.button`
   grid-area: newnote;
+
+  background-color: ${({ theme }) => theme.COLORS.ORANGE};
+  border: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > svg {
+    margin-right: 8px;
+  }
 `;
