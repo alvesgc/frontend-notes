@@ -24,11 +24,11 @@ export default createGlobalStyle`
     text-decoration: none;
   }
 
-  buttton, a {
+  button, a {
     cursor: pointer;
     transition: filter 0.2s;
   }
-  buttton:hover, a:hover {
-    filter: brightness (0.9);
+  button:hover, a:hover {
+    filter: brightness(0.9);
   }
 `;
