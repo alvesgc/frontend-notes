@@ -1,7 +1,12 @@
 import { Container, Form } from './styles';
+
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 import { Textarea } from '../../components/Textarea';
+import { NotItem } from '../../components/NotItem';
+import { Section } from '../../components/Section';
+
+
 export function New() {
   return (
     <Container>
@@ -13,8 +18,11 @@ export function New() {
             <a href="/">Voltar</a>
           </header>
           <Input placeholder="Título" />
-          
           <Textarea placeholder="Observações" />
+
+          <Section title="Links úteis">
+            <NotItem value="https://instagram.com/al___Vs"/>
+          </Section>
         </Form>
       </main>
     </Container>
