@@ -3,7 +3,7 @@ import { Container } from './styles';
 
 export function NotItem({isNew, value, onClick, onChange, ...rest}) {
   return (
-    <Container isNew={isNew}>
+    <Container $isnew={isNew}>
       <input 
       type="text"
       defaultValue={value}
