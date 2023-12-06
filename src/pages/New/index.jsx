@@ -22,6 +22,7 @@ export function New() {
 
           <Section title="Links úteis">
             <NotItem value="https://instagram.com/al___Vs"/>
+            <NotItem value="" isNew placeholder="Novo link"/>
           </Section>
         </Form>
       </main>

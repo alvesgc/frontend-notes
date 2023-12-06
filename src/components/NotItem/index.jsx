@@ -1,20 +1,21 @@
 import  { FiPlus, FiX} from 'react-icons/fi';
-
 import { Container } from './styles';
 
-export function NotItem({isNew, value, onClick, ...rest}) {
+export function NotItem({isNew, value, onClick, onChange, ...rest}) {
   return (
     <Container isNew={isNew}>
       <input 
       type="text"
-      value={value}
+      defaultValue={value}
       readOnly={!isNew}
       {...rest}
       />
 
       <button 
       type="button"
-      onClick={onClick}>
+      onClick={onClick}
+      className={isNew ? 'button-add' : 'button-delete'}
+      >
         {isNew ? <FiPlus /> : <FiX />}
       </button>
     </Container>
