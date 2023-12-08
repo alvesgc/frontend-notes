@@ -5,6 +5,7 @@ import { Input } from '../../components/Input';
 import { Textarea } from '../../components/Textarea';
 import { NotItem } from '../../components/NotItem';
 import { Section } from '../../components/Section';
+import { Button } from '../../components/Button';
 
 
 export function New() {
@@ -32,6 +33,7 @@ export function New() {
 
         </div>
           </Section>
+          <Button title="Salvar" />
         </Form>
       </main>
     </Container>
