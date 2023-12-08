@@ -24,6 +24,14 @@ export function New() {
             <NotItem value="https://instagram.com/al___Vs"/>
             <NotItem value="" isNew placeholder="Novo link"/>
           </Section>
+          
+          <Section title="Marcadores">
+        <div className="tags">
+          <NotItem value="React"/>
+          <NotItem value="" isNew placeholder="Nova tag"/>
+
+        </div>
+          </Section>
         </Form>
       </main>
     </Container>
